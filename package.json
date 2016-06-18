@@ -7,9 +7,7 @@
   },
   "scripts": {
     "patch": "npm version patch -m \"Bumped to %s\"",
-    "postversion": "git push && git push --tags",
-    "example:js": "browserify -t example/index.js >  example/index.browser.js ",
-    "test:example": "npm-run-all example:*"
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -22,22 +20,6 @@
     "crel": "^3.0.0",
     "defaultcss": "^1.1.1",
     "fastn": "^2.8.0"
-  },
-  "devDependencies": {
-    "brfs": "^1.4.3",
-    "browserify": "^13.0.0",
-    "debug": "^2.2.0",
-    "eslint": "^2.9.0",
-    "eslint-config-google": "^0.5.0",
-    "eslint-config-standard": "^5.2.0",
-    "eslint-plugin-promise": "^1.1.0",
-    "eslint-plugin-standard": "^1.3.2",
-    "minifyify": "^7.3.3",
-    "rootify": "^1.1.0",
-    "rooty": "^2.0.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.5.1",
-    "uglifyify": "^3.0.1"
   },
   "version": "1.0.3",
   "keywords": [
