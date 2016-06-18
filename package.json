@@ -8,8 +8,8 @@
   "scripts": {
     "patch": "npm version patch -m \"Bumped to %s\"",
     "postversion": "git push && git push --tags",
-    "example:js": "browserify -t brfs example/index.js >  example/index.browser.js ",
-    "build:example": "npm-run-all example:*"
+    "example:js": "browserify -t example/index.js >  example/index.browser.js ",
+    "test:example": "npm-run-all example:*"
   },
   "repository": {
     "type": "git",
@@ -38,14 +38,6 @@
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1",
     "uglifyify": "^3.0.1"
-  },
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
-  "rootify": {
-    "rootPath": "./scripts"
   },
   "version": "1.0.2",
   "keywords": [
