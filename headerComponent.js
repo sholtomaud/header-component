@@ -14,6 +14,8 @@ module.exports = function (fastn, component, type, settings, children) {
 
   component.render = function () {
     component.element = crel('div', {class: 'header'})
+    component.emit('render')
+
   }
   return component
 }
