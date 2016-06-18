@@ -1,4 +1,15 @@
-'use strict'
+// 'use strict'
+//
+// module.exports = function (options) {
+//   const fastn = require('fastn')({
+//     _generic: require('fastn/genericComponent'),
+//     header: require('./headerComponent')
+//   })
+//
+//   return function (settings) {
+//     fastn('header', settings).attach().render()
+//   }
+// }
 
 var fastn = require('fastn')({
   _generic: require('fastn/genericComponent'),
