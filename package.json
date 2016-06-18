@@ -8,8 +8,6 @@
   "scripts": {
     "dist": "npm version patch -m \"Bumped to %s\"",
     "postversion": "git push && git push --tags",
-    "test": "",
-    "build": "browserify -t brfs example/index.js >  example/index.browser.js ",
     "example:js": "browserify -t brfs example/index.js >  example/index.browser.js ",
     "build:example": "npm-run-all example:*"
   },
