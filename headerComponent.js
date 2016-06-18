@@ -64,7 +64,6 @@ module.exports = function (fastn, component, type, settings, children) {
     )
     component.emit('render')
 
-    return component
   }
   return component
 }
