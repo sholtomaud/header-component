@@ -29,7 +29,7 @@
     "brfs": "^1.4.3",
     "browserify": "^13.0.0",
     "debug": "^2.2.0",
-    "eslint": "^2.9.0",
+    "eslint": "^6.6.0",
     "eslint-config-google": "^0.5.0",
     "eslint-config-standard": "^5.2.0",
     "eslint-plugin-promise": "^1.1.0",
